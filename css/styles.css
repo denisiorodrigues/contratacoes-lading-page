@@ -1,0 +1,13 @@
+:root {
+    --cor-branca: #fff;
+    --cor-vinho: #8E2424;
+    --cor-cinza: #667085;
+    --cor-cinza-escuro: #101828;
+    --cor-cinza-muito-escuro: #1D2939;
+    --cor-vermelho: #C3191908;
+}
+
+body {
+    background-color: var(--cor-branca);
+    font-family: 'Inter', sans-serif;
+}
