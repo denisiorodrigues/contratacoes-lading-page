@@ -11,6 +11,7 @@ Para isso, te enviaram um layout no Figma. E a partir desse protótipo, o objeti
 * [Tecnologias Utilizadas](#tecnologias-utilizadas)
 * [Layout](#layout)
 * [Como Usar](#como-usar)
+* [Dica](#dica)
 
 ---
 
@@ -55,3 +56,31 @@ Abaixo as principais tecnologias que está sendo utilizada para construir este p
 3. **Execute a aplicação:**
 
     Instalar a extenção **Live Server** no VS Code ou clicar no arquivo index.html 
+
+## Dica
+
+Abaxi problemas relatados e corrigidos no processo
+
+### Erro de token
+Se o erro for como o debaixo, é porque as operações do git não suporta mais autenticação por senha. (isso é o que eu acho)
+Se você tem o uma chave SSH cadastrada, nao precisa fazer login, o problema é que o token de acesso está expirado. Uma das soluções para resolver esse problema é gerar o token no github, se esse e o servidor do repositório que está utilizando, esse é o meu caso.   
+
+```bash
+    Username for 'https://github.com': denisiorodrigues
+    Password for 'https://denisiorodrigues@github.com': 
+    remote: Invalid username or token. Password authentication is not supported for Git operations.
+    fatal: Authentication failed for 'https://github.com/denisiorodrigues/contratacoes-lading-page.git/'
+```
+
+Para Gerar o token siga o passo a passo a seguir neste [link da geeksforgeeks](https://www.geeksforgeeks.org/git/how-to-generate-personal-access-token-in-github/).
+
+Depois do token gerado, precisamos configurar no repositório, seguindo esse passo a passo.
+
+1.  **Copie o token gerado, como por exemplo:**
+    ```bash
+    ghp_Spw90V7Sumuwq8Jxui8sGgq12U1Pga26vVvkL
+    ```
+2.  **Execute o comando:**
+    ```bash
+    git remote set-url origin https://<cole-o-token-gerado-aqui>@github.com/<seu-usuário>/<seu-repositorio>.git
+    ```
