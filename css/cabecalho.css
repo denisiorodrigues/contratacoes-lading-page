@@ -1,9 +1,10 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    margin: 1.6em 7em;
+    margin: 0 7em;
     align-items: center;
     font-weight: 500;
+    height: 80px;
 }
 
 .cabecalho__logo {
