@@ -12,4 +12,16 @@
 body {
     background-color: var(--cor-branca);
     font-family: 'Inter', sans-serif;
+    color: var(--cor-cinza);
+    font-weight: 400;
+}
+
+.botao-vinho {
+    background-color: var(--cor-vinho);
+    color: var(--cor-branca);
+    border: none;
+    border-radius: 8px;
+    padding: 0.8em 1.6em;
+    font-weight: 600;
+    cursor: pointer;
 }
