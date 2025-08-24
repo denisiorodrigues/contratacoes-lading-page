@@ -1,7 +1,14 @@
 .metricas__container {
     display: flex;
-    width: 70%;
-    align-items: center;
+    /* width: 70%; */
+    align-items: center;     /* Centraliza na vertical */
+    justify-content: center; /* Centraliza na horizontal */
+    padding: 0 10em;
+}
+
+.metricas__item {
+    width: 33.33%;
+    height: auto;
 }
 
 .metricas__titulo {
