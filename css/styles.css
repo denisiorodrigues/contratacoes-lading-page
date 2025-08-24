@@ -1,5 +1,6 @@
 @import url("./cabecalho.css");
 @import url("./primeira-sessao.css");
+@import url("./metricas.css");
 
 :root {
     --cor-branca: #fff;
