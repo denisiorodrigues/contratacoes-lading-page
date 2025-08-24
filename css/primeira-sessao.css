@@ -4,7 +4,7 @@
     height: 430px;
     justify-content: center;
     align-items: center;
-    padding: 96px 0;
+    padding: 60px 0;
 }
 
 .primeira-sessao__titulo {
@@ -18,4 +18,9 @@
     width: 650px;
     height: 83px;
     text-align: center;
+}
+
+.primeira-sessao__subtitulo {
+    font-weight: 600;
+    color: var(--cor-vinho);
 }
