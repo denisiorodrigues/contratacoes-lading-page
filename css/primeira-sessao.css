@@ -1,0 +1,21 @@
+.primeira-sessao {
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+}
+
+.primeira-sessao__titulo {
+    color: var(--cor-cinza-escuro);
+    font-weight: 600;
+    font-size: 3em;
+    padding: 1em;
+}
+
+.primeira-sessao__texto {
+    width: 650px;
+    height: 83px;
+    text-align: center;
+}
